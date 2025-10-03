@@ -33,7 +33,7 @@ import objectrepository.SelectCampaignPage;
 public class CreateContactsTest extends BaseClass {
 	@Test(groups = { "smoke", "regression" })
 	public void CreateContactWithMandatoryFieldsTest() throws IOException {
-
+		System.out.println("CreateContactWithMandatoryFieldsTest");
 		// read from excelsheet
 		String CAMPAIGN_NAME = eLib.readDataFromExcelFile("Contacts", 1, 2);
 		String TARGETSIZE = eLib.readDataFromExcelFile("Contacts", 1, 3);
