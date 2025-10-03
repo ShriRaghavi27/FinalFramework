@@ -15,7 +15,7 @@ public class CreateCampaignTest extends BaseClass{
 	@Test(groups = {"smoke","regression"})
 	public void CreateCampaignWithMandatoryFieldsTest() throws Exception {
 		//read from excelsheet
-		System.out.println("CreateCampaignWithMandatoryFieldsTestt");
+		System.out.println("CreateCampaignWithMandatoryFieldsTest t");
 		String CAMPAIGN_NAME=eLib.readDataFromExcelFile("Campaign", 1, 2);
 		String TARGETSIZE = eLib.readDataFromExcelFile("Campaign", 1, 3);
 
